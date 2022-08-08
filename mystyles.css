@@ -1,8 +1,3 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
-
-
 body {
     text-align: center;
     font-family: 'Fraunces', serif;
@@ -13,7 +8,6 @@ p, a {
     font-family: 'barlow', sans-serif;
     font-weight: 600;
 }
-
 
 
 .navbar {
@@ -41,36 +35,6 @@ p, a {
     color: white;
 }
 
-footer {
-    background-color: hsl(168, 62%, 69%);
-}
-
-.footer-title {
-    font-family: 'barlow', sans-serif;
-    font-weight: 900;
-    font-size: 2rem;
-}
-
-.footer-body {
-    color: hsl(167, 46%, 32%);
-    padding: 3rem 0;
-}
-
-#menu ul{
-    list-style: none;
-    padding: 0;
-  }
-
-#menu li ,.footer-menu{
-    margin: 0 0.9rem;
-    display: inline;
-    color: hsl(167, 46%, 32%);
-  }
-
-.spacer {
-    padding: 1.4rem 0 4rem 0;
-}
-
 .contact {
     background-color: white;
     color: hsl(212, 27%, 19%);
@@ -83,8 +47,6 @@ footer {
     background-color: rgb(234, 234, 234);
     color: hsl(212, 27%, 19%);
 }
-
-
 
 .hero {
     background-image: url("images/desktop/image-header.jpg");
@@ -137,17 +99,6 @@ footer {
     background-color: hsl(7, 99%, 70%);
     color: hsl(212, 27%, 19%);
     border-style: none;
-}
-
-.left-feature {
-    padding: 0;
-    overflow-x: hidden;
-}
-
-.right-feature {
-    padding: 0;
-    outline: 1px solid red;
-    overflow-x: hidden;
 }
 
 .text-body {
@@ -212,4 +163,34 @@ footer {
 
 .col-6 {
     padding: 0;
+}
+
+footer {
+    background-color: hsl(168, 62%, 69%);
+}
+
+.footer-title {
+    font-family: 'barlow', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.footer-body {
+    color: hsl(167, 46%, 32%);
+    padding: 3rem 0;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+  }
+
+#menu li ,.footer-menu{
+    margin: 0 0.9rem;
+    display: inline;
+    color: hsl(167, 46%, 32%);
+  }
+
+.spacer {
+    padding: 1.4rem 0 4rem 0;
 }
