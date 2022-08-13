@@ -2,6 +2,7 @@ body {
     text-align: center;
     font-family: 'Fraunces', serif;
     font-weight: 700;
+    overflow-x: hidden;
 }
 
 p, a {
@@ -36,6 +37,7 @@ p, a {
 }
 
 .contact {
+    margin: auto;
     background-color: white;
     color: hsl(212, 27%, 19%);
     font-size: 1rem;
@@ -162,7 +164,32 @@ p, a {
 }
 
 .col-6 {
-    padding: 0;
+    padding: 0%;
+    margin: 0%;
+}
+
+.padding_remove{
+    padding: 0%;
+    margin: 0%;
+}
+.overflow_remove{
+    
+}
+img-box {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.setimg{
+    height :100%;
+    width : 100%;
+    object-fit: cover;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container-fluid{
+    margin: 0%;
+    padding: 0%;
 }
 
 footer {
@@ -193,4 +220,69 @@ footer {
 
 .spacer {
     padding: 1.4rem 0 4rem 0;
+}
+
+.container_image{
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .desc {
+        padding: 20% 10%;
+        text-align: center;
+    }
+    h2, p, button {
+        text-align: center;
+    }
+
+    button {
+        margin: auto;
+        
+    }
+    .text-box{
+        display: grid;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+    }
+    .box{
+        flex-direction: column-reverse;
+    }
+
+    .text-body {
+        margin-bottom: 18%;
+        margin-left: 8%;
+        margin-right: 8%;
+        width: auto;
+    }
+
+    .img-fluid{
+        height: 35rem;
+        width: auto;
+    }
+
+    .pics{
+        margin: 2rem;
+    }
+
+.testimonials p {
+    margin-bottom: 2rem;
+}
+
+.col-sm-3{
+    width: 50%;
+    padding: 0%;
+    height: auto;
+}
+
+.picsx .img-fluid {
+    height: auto;
+}
+
+.navbar-toggler{
+    margin: 0%;
+}
+
+
+
 }
